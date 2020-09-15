@@ -1,0 +1,23 @@
+import time
+
+print("Start time")
+start_time = time.time()
+print(start_time)
+start_time = start_time + 60
+print(start_time)
+
+input ("Press Enter to start")
+start_time = time.time()
+
+input ("Press Enter to stop")
+end_time = time.time()
+print(end_time)
+print("Finished In:")
+duration = (end_time - start_time)
+print(duration)
+if duration > 5135:
+        print("You Suck Nerd")
+else:
+        print("You Suck Less Nerd")
+    
+
