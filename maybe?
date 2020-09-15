@@ -1,5 +1,3 @@
-def main()
-
 import time
 
 print("Start time")
@@ -21,7 +19,13 @@ if duration > 5135:
         print("We Suck Nerds")
 else:
         print("Way to go guys")
-if __name__== "__main__": 
-        main()
+
+def should_keep_asking():
+  if should_keep_asking: True
+  start_time = 0
+  end_time = 0
+  input ("Press R to Restart")
+  print ("Press R to Restart")
+
 
 
