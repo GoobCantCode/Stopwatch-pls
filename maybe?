@@ -1,3 +1,5 @@
+def main()
+
 import time
 
 print("Start time")
@@ -16,8 +18,10 @@ print("Finished In:")
 duration = (end_time - start_time)
 print(duration)
 if duration > 5135:
-        print("You Suck Nerd")
+        print("We Suck Nerds")
 else:
-        print("You Suck Less Nerd")
-    
+        print("Way to go guys")
+if __name__== "__main__": 
+        main()
+
 
