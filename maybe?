@@ -1,27 +1,28 @@
 import time
 
-def goobs_stopwatch():
-  should_keep_asking = True
-  start_time = None
-  end_time = None
-  start_message = "Press enter to start"
-  stop_message = "Press enter to stop"
-  
+print("Start time")
+start_time = time.time()
+print(start_time)
+start_time = start_time + 60
+print(start_time)
+
+input ("Press Enter to start")
+start_time = time.time()
+
+input ("Press Enter to stop")
+end_time = time.time()
 print(end_time)
 print("Finished In:")
 duration = (end_time - start_time)
 print(duration)
 if duration > 5135:
-        print("You Suck Nerd")
+        print("We Suck Nerds")
 else:
-        print("You Suck Less Nerd")
+        print("Way to go guys")
 
-def TimerReset (*args, **kwargs):
-return _TimerReset (*args, **kwargs)
-
-calss _TimerReset (Thread):
-        t = TimerReset(30.0, f, args=[], kwargs={}
-        t.reset()
-
-    
-
+def should_keep_asking():
+  if should_keep_asking: True
+  start_time = 0
+  end_time = 0
+  input ("Press R to Restart")
+  print ("Press R to Restart")
